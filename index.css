@@ -40,7 +40,7 @@ color: #00E8E8 !important;
 
 }
 
-.section-1 .container-fluid{
+.section-1{
 
     background-image:url(Resimler/9f48bdc9d348d6ae824c4dd82a858c3c\ \(1\).png);
     background-attachment: fixed;
@@ -207,7 +207,22 @@ a{
     font-family: "Montserrat";
   }
    
-   
+  .section-6 h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(52, 73, 94,1.0);
+    font-weight: 500;
+    font-family: "Pacifico";
+  
+  }
+  .section-6 p{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(52, 73, 94,1.0);
+    font-weight: 500;
+    font-family: "Pacifico";
+
+  }
    
    
    
