@@ -138,6 +138,7 @@ color: #00E8E8 !important;
   .container-2 {
     position: relative;
     width: 100%;
+    
   }
   
   .container-2 .image {
@@ -146,7 +147,7 @@ color: #00E8E8 !important;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    border-bottom: 5px #e8491d solid;
+    border-bottom:#e8491d 5px solid;
   }
   
   .container-2 .middle {
