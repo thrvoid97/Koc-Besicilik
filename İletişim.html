@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Koc Hayvancılık</title>
+    <title>Koc Besicilik</title>
 <meta name="description" content="Koc Hayvancılık">
 <meta name="keywords" content="hayvancılık,mersin hayvancılık,koç hayvancılık">
 <meta name="author" content="Çağatay Koç">
@@ -11,38 +11,158 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="index.css" type="text/css">
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
 </head>
 
 <body>
-<header>
-<nav class="navbar navbar-expand-lg navbar-light">
-<a href="Admin.html" class="navbar-brand ml-3">Koc <span style="color: #00e8e8;"> Hayvancılık</span></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" 
-data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">    
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse"></div>
-<div class="collapse navbar-collapse" id="navbarMenu">
-<ul class="navbar-nav mr-auto" >
-    <li class="nav-item">
-    <a href="index.html" class="nav-link">Anasayfa</a>
-    </li>
-    <li class="nav-item">
-        <a href="Hayvanlarımız.html" class="nav-link">Hayvanlarımız</a>
-    </li>
-    <li class="nav-item">
-        <a href="Satınalma.html" class="nav-link">Satın Alma</a>
-    </li>
-    <li class="nav-item">
-        <a href="Hakkımızda.html" class="nav-link">Hakkımızda</a>
-    </li>
-    <li class="nav-item active">
-        <a href="İletişim.html" class="nav-link">İletişim</a>
-    </li>
-</ul>
-</div>
-</nav>
-</header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="Admin.html" class="navbar-brand ml-3">Koc <span style="color: #00e8e8;"> Hayvancılık</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">    
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"></div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mr-auto" >
+            <li class="nav-item ">
+            <a href="index.html" class="nav-link">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+                <a href="Galeri.html" class="nav-link">Galeri</a>
+            </li>
+            <li class="nav-item">
+                <a href="Satışlar.html" class="nav-link">Satışlar</a>
+            </li>
+            <li class="nav-item">
+                <a href="Hakkımızda.html" class="nav-link">Hakkımızda</a>
+            </li>
+            <li class="nav-item active">
+                <a href="İletişim.html" class="nav-link">İletişim</a>
+            </li>
+        </ul>
+        <div class="container-1">
+                
+                  <div class="search-box">
+                      <input type="text" class="search-box-input" placeholder="Neye Bakmıştınız?">
+                      <button class="search-box-btn">
+                          <i class="search-box-icon material-icons">search</i>
+                      </button>
+                  </div>
+            </div>
+         
+        </div>
+        </nav>
+        </header>
+
+        <main>
+                <div class="container-2">
+                        <img src="Resimler/dijital-iletisim.jpg" alt="Banner" class="image" style="width:100%">
+                        <div class="middle">
+                          <div class="text-1">İletişim</div>
+                        </div>
+                      </div>
+ 
+            <!-- Inline CSS based on choices in "Settings" tab -->
+            <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso {font-family: Arial, Helvetica, sans-serif; color: black;margin-left:35%;margin-top:5%; }.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+            
+            <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+            <div class="bootstrap-iso">
+             <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                <form action="https://formspree.io/thrvoid97@gmail.com" method="POST">
+                 <div class="form-group">
+                  <label class="control-label requiredField" for="name">
+                   Ad Soyad
+                   <span class="asteriskField">
+                    *
+                   </span>
+                  </label>
+                  <input class="form-control" id="name" name="name" type="text"/>
+                 </div>
+                 <div class="form-group">
+                  <label class="control-label requiredField" for="email">
+                   Email
+                   <span class="asteriskField">
+                    *
+                   </span>
+                  </label>
+                  <input class="form-control" id="email" name="email" type="text"/>
+                 </div>
+                 <div class="form-group ">
+                  <label class="control-label requiredField" for="number">
+                   Telefon Numarası
+                   <span class="asteriskField">
+                    *
+                   </span>
+                  </label>
+                  <input class="form-control" id="number" name="number" placeholder="05xxxxxxxxx" type="text"/>
+                 </div>
+                 <div class="form-group ">
+                  <label class="control-label " for="subject">
+                   Başlık
+                  </label>
+                  <input class="form-control" id="subject" name="subject" type="text"/>
+                 </div>
+                 <div class="form-group ">
+                  <label class="control-label " for="message">
+                   Mesaj
+                  </label>
+                  <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+                 </div>
+                 <div class="form-group">
+                  <div>
+                   <button class="btn btn-primary " name="submit" type="submit">
+                    Gönder
+                   </button>
+                  </div>
+                 </div>
+                </form>
+               </div>
+              </div>
+             </div>
+            </div>
+
+
+
+
+
+            
+
+            <div class="section-7">
+                <div class="container-fluid">
+                        <div class="d-flex justify-content-center">
+                            <div class="d-flex flex-column">
+                    <h1>Konumumuz</h1>
+                    <p>Detaylı bilgi için şu numarayı arayınız : 05555555555</p>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="section-6">
+                <iframe class="ifr" src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d2683.3747388163406!2d34.56172243646061!3d36.88823507353352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d36.888779899999996!2d34.5629765!5e0!3m2!1str!2str!4v1561021444402!5m2!1str!2str" style="border:0" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+               </div>
+            <footer>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="Resimler/logo2.jpg" alt="">     
+                </div>
+                <div class="col-md-4">
+                    <h3>İletişim Bilgileri</h3>
+                    <p>Tel : 05555555555</p>
+                    <p>Email : <a href="kocbesicilik@hotmail.com">Kocbesicilik@hotmail.com</a></p>
+                    <p>Facebook : <a href="kocbesicilik.facebook.com">Kocbesicilik.facebook.com</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>KOÇ Besicilik</h3>
+                    <p>KOÇ Hayvanclılık yılların tecrübesi, <br> profesyonel ve donanımlı 
+                        ekibi ile <br> hizmetinizdedir. Bizleri daha yakından <br> tanımak için iletişime geçiniz.</p>
+            
+                </div>
+                </div>
+            </footer>
+        </main>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
