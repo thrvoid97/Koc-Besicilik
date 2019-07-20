@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Pacifico|Righteous|Roboto+Condensed|Ubuntu|Oswald');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body{
+
+    padding: 0%;
+    margin: 0%;
+    font-family: "Lato";
+  
+}
+
+.navbar{
+    background-color: #35424a;
+    border-bottom: #e8491d 3px solid;
+    
+}
+
+.navbar-brand{
+
+    font-family: "Pacifico";
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+
+    font-size: 18px;
+    margin: 14px;
+    color: white !important;
+    font-family: "Roboto Condensed";
+
+}
+
+.nav-link:hover{
+color: #00E8E8 !important;
+
+}
+
+.active .nav-link{
+color: #00E8E8 !important;
+
+}
+footer {
+    padding: 20px;
+    background-color:#e8491d;
+    text-align: center;
+    font-family: "Montserrat";
+    border-top: #35424a 5px solid;
+  }
+  footer h3,p,h1{
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+    margin-top: 2%;
+  }
+  footer a{
+    color: rgba(52, 152, 219,1.0);
+    text-decoration: none;
+    
+  }
+  footer hr{
+    color: #35424a;
+    background-color: #35424a;
+    height: 5px;
+  }
+  header{
+      margin-bottom:100%;
+  }

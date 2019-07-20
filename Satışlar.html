@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <title>Koc Besicilik</title>
-<meta name="description" content="Koc Hayvancılık">
-<meta name="keywords" content="hayvancılık,mersin hayvancılık,koç hayvancılık">
+<meta name="description" content="Koc Besicilik">
+<meta name="keywords" content="Besicilik,mersin Besicilik,koç Besicilik">
 <meta name="author" content="Çağatay Koç">
 <meta charset=UTF-8>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -11,12 +11,13 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="Satışlar.css" type="text/css">
+<script src="Satışlar.js" async></script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-        <a href="Admin.html" class="navbar-brand ml-3">Koc <span style="color: #00e8e8;"> Hayvancılık</span></a>
+        <a href="Admin.html" class="navbar-brand ml-3">Koc <span style="color: #00e8e8;"> Besicilik</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
         data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">    
         <span class="navbar-toggler-icon"></span>
@@ -55,9 +56,73 @@
         </header>
 <main>
 
-
-
-
+    <section class="container content-section">
+        <h2 class="section-header">Hayvanlar</h2>
+        <div class="shop-items">
+            <div class="shop-item col-md-4"> 
+                <img class="shop-item-image" src="Resimler/koyunveba.jpg" >
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">875 TL</span>
+                    <span class="shop-item-type">Yaş:5</span>
+                    <span class="shop-item-type">Alpaka koyunu</span>
+                    <span class="shop-item-type">70kg</span>
+                    <span class="shop-item-title">No:2</span>
+                    <button class="btn btn-primary shop-item-button"type="button">Sepete Ekle</button>
+            </div>
+            </div>
+            <div class="shop-item col-md-4"> 
+                <img class="shop-item-image" src="Resimler/koyunveba.jpg" >
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">1000 TL</span>
+                    <span class="shop-item-type">Yaş:5</span>
+                    <span class="shop-item-type">Dağ keçisi</span>
+                    <span class="shop-item-type">70kg</span>
+                    <span class="shop-item-title">No:2</span>
+                    <button class="btn btn-primary shop-item-button"type="button">Sepete Ekle</button>
+            </div>
+            </div>
+            
+            <div class="shop-item col-md-4">
+                    <img class="shop-item-image"  src="Resimler/koyunveba.jpg">
+                    <div class="shop-item-details"> 
+                    <span class="shop-item-price">500 TL</span>
+                    <span class="shop-item-type">Yaş:5</span>
+                    <span class="shop-item-type">Alpaka koyunu</span>
+                    <span class="shop-item-type">50kg</span>
+                    <span class="shop-item-title">No:3</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Sepete Ekle</button>
+                    </div>
+            </div>
+            
+            <div class="shop-item col-md-4">
+                <img class="shop-item-image" src="Resimler/koyunveba.jpg" > 
+                <div class="shop-item-details">         
+                    <span class="shop-item-price">900 TL</span>
+                    <span class="shop-item-type">Yaş:5</span>
+                    <span class="shop-item-type">Alpaka koyunu</span>
+                    <span class="shop-item-type">60kg</span>
+                    <span class="shop-item-title">No:4</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Sepete Ekle</button>
+            </div> 
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Sepet</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Hayvan</span>
+            <span class="cart-price cart-header cart-column">Fiyat</span>
+            <span class="cart-quantity cart-header cart-column">Sayı</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Toplam</strong>
+            <span class="cart-total-price">0 TL</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" onclick="location.href='Kart.html'" type="button">Satın Al</button>
+    </section>
+    
 
 
 
